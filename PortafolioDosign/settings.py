@@ -81,21 +81,21 @@ WSGI_APPLICATION = 'PortafolioDosign.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
-        conn_max_age=600)
-    }
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'railway',
-#         'USER': 'root',
-#         'PASSWORD': 'j2cMGwYKdJBDjOLsyeky',
-#         'HOST': 'containers-us-west-143.railway.app',
-#         'PORT': '7196'
+#     'default': dj_database_url.config(
+#         default='postgresql://postgres:postgres@localhost:5432/mysite',
+#         conn_max_age=600)
 #     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'USER': 'root',
+        'PASSWORD': 'j2cMGwYKdJBDjOLsyeky',
+        'HOST': 'containers-us-west-143.railway.app',
+        'PORT': '7196'
+    }
+}
 
 
 # Password validation
