@@ -83,8 +83,8 @@ WSGI_APPLICATION = 'PortafolioDosign.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='mysql://root:j2cMGwYKdJBDjOLsyeky@containers-us-west-143.railway.app:7196/railway'
-    )
+        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        conn_max_age=600)
     }
 # DATABASES = {
 #     'default': {
