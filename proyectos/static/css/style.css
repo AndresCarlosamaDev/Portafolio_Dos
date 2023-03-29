@@ -15,7 +15,7 @@ body {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent; }
 
 ::-moz-selection {
@@ -339,6 +339,16 @@ a {
       font-size: 12px;
       text-transform: uppercase;
       color: #cccccc; }
+
+
+    /* MY SETTINGS */
+
+        /* MY SETTINGS */
+
+  .single-portfolio .relative :hover {
+    transform: scale(1.02);
+    animation-duration: 3s;
+  }
 
 /*--------- Start Portfolio Area -------------*/
 .portfolio-area .primary-btn {
