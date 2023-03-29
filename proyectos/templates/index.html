@@ -350,16 +350,16 @@
 					<form action="addContact/" class="site-form" method="POST">{% csrf_token %}
 						<!-- ------------------------- -->
 						<div class="form-group">
-							<input name="nombre" type="text" class="form-control px-3 py-4" placeholder="Nombre">
+							<input name="nombre" type="text" class="form-control px-3 py-4" placeholder="Nombre" required="True">
 						</div>
 						<div class="form-group">
-							<input name="telefono" type="text" class="form-control px-3 py-4" placeholder="Teléfono">
+							<input name="telefono" type="text" class="form-control px-3 py-4" placeholder="Teléfono" required="True">
 						</div>
 						<div class="form-group">
 							<input name="email" type="email" class="form-control px-3 py-4" placeholder="Email">
 						</div>
 						<div class="form-group mb-5">
-							<textarea name="mensaje" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+							<textarea name="mensaje" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Escribe tu mensaje" required="True"></textarea>
 						</div>
 						<!-- ------------------------- -->
 						<div class="form-group">

@@ -180,7 +180,9 @@ a {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-section {
-  padding: 5em 0; }
+  padding: 3em 0;
+  /* padding: 0; */
+  }
 
 .section-heading {
   margin-bottom: 30px;
@@ -189,7 +191,7 @@ a {
   .section-heading h2 {
     position: relative;
     font-weight: 200;
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 30px; }
     .section-heading h2 strong {
       font-weight: 800; }
@@ -633,3 +635,10 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+  /* MY SETTINGS */
+  .txtCentrado{
+    justify-content: center;
+    text-align: center;
+    margin-top: 300px;
+  }
